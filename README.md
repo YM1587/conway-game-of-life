@@ -8,4 +8,6 @@ This version features:
 - Periodic screen clearing to show successive generations.
 - Simple terminal-based visualization.
 - Wrapping edges (toroidal grid).
-- 
+## Requirements
+- Python 3.x
+- Works on Linux, macOS, and Windows (terminal support required)
