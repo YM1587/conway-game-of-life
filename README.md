@@ -11,3 +11,10 @@ This version features:
 ## Requirements
 - Python 3.x
 - Works on Linux, macOS, and Windows (terminal support required)
+## Rules of the Game
+Each cell can be either alive (#) or dead ( ). For each generation:
+- A live cell with 2 or 3 live neighbors survives.
+- A dead cell with exactly 3 live neighbors becomes alive.
+- All other cells die or remain dead.
+
+The grid wraps around at the edges, simulating an infinite surface.
