@@ -9,8 +9,8 @@ This version features:
 - Simple terminal-based visualization.
 - Wrapping edges (toroidal grid).
 ## Requirements
-- Python 3.x
-- Works on Linux, macOS, and Windows (terminal support required)
+- Python 3.x.
+- Works on Linux, macOS, and Windows (terminal support required).
 ## Rules of the Game
 Each cell can be either alive (#) or dead ( ). For each generation:
 - A live cell with 2 or 3 live neighbors survives.
